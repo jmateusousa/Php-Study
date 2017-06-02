@@ -1,0 +1,38 @@
+<form class="form-horizontal" method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>?a=buscar">
+<fieldset>
+
+<legend><center><h2>Controle de Vendas</h2></legend>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="pesquisa">Buscar</label>
+  <div class="col-md-4">
+	<input id="pesquisa" name="pesquisa" type="text" placeholder="Digite um Nome" class="form-control input-md">
+	<p></p>
+	<input id="status" name="status" type="text" placeholder="Digite um status" class="form-control input-md">
+	<p></p>
+	<input id="data" name="data" type="text" placeholder="Mês de referência" class="form-control input-md">
+	<p></p>
+<div class="form-group">
+  <div class="col-md-4">
+	<select name="destino" id="destino" class="btn btn-default btn-select">
+		<option value="">Destino</option>
+		<option value="Funcionario">Funcionario</option>
+		<option value="Cadersil">Cadersil</option>
+		<option value="Loja">Loja</option>
+		<option value="Diretoria">Diretoria</option>
+		<option value="Garrafoes">Garrafões</option>
+	</select>
+</div>
+</div>
+<!-- Button -->
+<div class="form-group">
+  <div class="col-md-2">
+    <button id="buscar" name="buscar"class="btn btn-primary">Buscar</button>
+  </div>
+</div>
+</div>
+
+</fieldset>
+</form>
+</div>
+</div>
